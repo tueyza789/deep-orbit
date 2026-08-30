@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Deep Orbit — Support</title>
+<style>
+  :root{ --ground:#F1F2F5; --raise:#FFFFFF; --ink:#161B2B; --body:#3A4256;
+         --mute:#5C657E; --rule:#D6D9E3; --accent:#35507F; --warm:#A85A15; }
+  @media (prefers-color-scheme:dark){
+    :root{ --ground:#0B0F1C; --raise:#141A2B; --ink:#E8EAF2; --body:#C0C6D8;
+           --mute:#98A1B8; --rule:#242B40; --accent:#9FB2E4; --warm:#FFD2A0; } }
+  *{box-sizing:border-box}
+  body{margin:0; background:var(--ground); color:var(--body);
+    font:16.5px/1.72 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing:antialiased}
+  .wrap{max-width:44rem; margin:0 auto; padding:64px 24px 96px}
+  .mark{display:flex; align-items:center; gap:12px; margin-bottom:40px}
+  .mark span{font:500 12px/1 ui-monospace,SFMono-Regular,Menlo,monospace;
+    letter-spacing:.15em; text-transform:uppercase; color:var(--mute)}
+  h1{color:var(--ink); font-size:clamp(30px,5vw,42px); line-height:1.15;
+     letter-spacing:-.02em; margin:0 0 28px; font-weight:600}
+  h2{color:var(--ink); font-size:20px; margin:40px 0 12px; font-weight:600}
+  p{margin:0 0 16px}
+  ul{margin:0 0 16px; padding-left:22px} li{margin-bottom:9px}
+  strong{color:var(--ink); font-weight:600}
+  a{color:var(--accent)}
+  footer{margin-top:56px; padding-top:24px; border-top:1px solid var(--rule);
+         color:var(--mute); font-size:14px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="mark">
+    <svg width="26" height="26" viewBox="0 0 30 30" aria-hidden="true">
+      <path d="M15 4.2 A10.8 10.8 0 1 1 6.6 21.4" fill="none" stroke="var(--accent)"
+            stroke-width="2.1" stroke-linecap="round" opacity="0.8"/>
+      <circle cx="15" cy="4.2" r="2.7" fill="var(--warm)"/>
+    </svg>
+    <span>Deep Orbit</span>
+  </div>
+
+  <h1>Support</h1>
+  <p>Deep Orbit synthesises every sound on your device as it plays. There are no audio
+  files, so it is small, it works with no connection, and it never repeats.</p>
+
+  <h2>Get in touch</h2>
+  <p><a href="https://github.com/tueyza789/deep-orbit/issues">Open an issue on GitHub</a> —
+  bugs, questions, or a soundscape you wish existed.</p>
+
+  <h2>Common questions</h2>
+  <p><strong>Why is it so quiet?</strong> On purpose. It sits below your system volume and
+  there is no boost, so it can be left on without becoming the thing you are listening to.
+  Turn your device volume up rather than expecting the app to be loud.</p>
+  <p><strong>Why does it stop?</strong> Mental Reset, Quick Reset and Wind Down are finite:
+  they slow down, get quieter, and end. That is the point of the app. Drift and Focus Field
+  are open-ended and run until you stop them, or until the sleep timer lets go.</p>
+  <p><strong>Does it work with the screen locked?</strong> Yes. Audio continues. The breath
+  haptics need the app open and the phone unlocked — that is an iOS limit, not a choice — so
+  the screen is held awake only for the short paced sessions and allowed to lock for the long
+  ones.</p>
+  <p><strong>Nothing comes out of my speaker.</strong> Check whether
+  <strong>Headphones only</strong> is on in Settings. With it on, the app deliberately stays
+  silent rather than playing out loud.</p>
+  <p><strong>Restoring a purchase.</strong> Settings → the unlock screen → Restore. It uses
+  the Apple ID currently signed in on the device.</p>
+
+  <footer>Deep Orbit · Siroj Kasemrut · Bangkok, Thailand</footer>
+</div>
+</body>
+</html>
