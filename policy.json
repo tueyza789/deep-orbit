@@ -1,0 +1,5 @@
+{
+  "_note": "Deep Orbit update policy. Fetched on launch by UpdateGate. Raise minimumVersion to stop older versions from running; raise recommendedVersion to suggest an update without blocking. Unknown keys are ignored, so this note is safe.",
+  "minimumVersion": "1.0.0",
+  "recommendedVersion": "1.0.0"
+}
