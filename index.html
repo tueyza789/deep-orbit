@@ -86,18 +86,13 @@
   <h2>Network</h2>
   <p>The app plays sound that is generated on your device as it plays. There are no audio
   files, so it works with no connection at all.</p>
-  <p>It makes network requests in exactly two situations:</p>
-  <ul>
-    <li><strong>Version check.</strong> On launch it fetches one small static file —
-    <code>tueyza789.github.io/deep-orbit/policy.json</code>, the same site as this page —
-    to see whether this version is still supported. The request carries no identifier and
-    no information about you; like any web request it necessarily reveals your IP address
-    to GitHub, which serves the file. If the request fails, the app carries on as
-    normal.</li>
-    <li><strong>Purchases.</strong> If you buy the full app, that transaction is handled
-    entirely by Apple through the App Store. We never see your payment details, and we do not
-    receive your name, email, or Apple ID.</li>
-  </ul>
+  <p>It makes exactly one network request, on launch. It fetches one small static file —
+  <code>tueyza789.github.io/deep-orbit/policy.json</code>, the same site as this page — to
+  see whether this version is still supported. The request carries no identifier and no
+  information about you; like any web request it necessarily reveals your IP address to
+  GitHub, which serves the file. If the request fails, the app carries on as normal.</p>
+  <p>There is nothing to buy in this version, so there is no purchase, no receipt and no
+  payment information of any kind.</p>
 
   <h2>What we do not do</h2>
   <ul>
