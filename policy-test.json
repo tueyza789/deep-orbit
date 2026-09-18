@@ -1,0 +1,6 @@
+{
+  "_note": "NOT PRODUCTION. A fixture so the update gate can be proven to block, without ever pointing the shipping app at a version that would lock people out. Only a scratchpad test build reads this file; the app reads policy.json.",
+  "minimumVersion": "9.9.9",
+  "recommendedVersion": "9.9.9",
+  "message": "This version is no longer supported."
+}
